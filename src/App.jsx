@@ -6,7 +6,7 @@ function App() {
     nome : "Everton",
     sobrenome : "Lindo",
     curso : "Clã do pé",
-    discipline : "LPW3"
+    disciplina : "LPW3"
   }
 
   const saudacao = () => {
@@ -20,7 +20,7 @@ function App() {
         <p>Professor do curso : {professor.curso} na discipline de {professor.disciplina}</p>
     </li>
 
-    <button onclick={saudacao()}>
+    <button onClick={saudacao}>
 
     </button>
     </>
